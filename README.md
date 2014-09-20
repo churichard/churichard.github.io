@@ -1,2 +1,3 @@
-mygithubpage
+churichard.me
 ============
+A personal page.
