@@ -4,7 +4,7 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-body {
+ body {
     overflow-x: hidden;
 }
 
@@ -83,7 +83,7 @@ header {
     text-align: center;
     color: #ffffff;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-     url("../img/bg/header_bg.jpg");
+    url("../img/bg/header_bg.jpg");
 }
 
 header .container {
@@ -159,7 +159,7 @@ section h2 {
 section.success {
     color: #fff;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-     url("../img/bg/about_bg.jpg");
+    url("../img/bg/about_bg.jpg");
 }
 
 @media(max-width:767px) {
