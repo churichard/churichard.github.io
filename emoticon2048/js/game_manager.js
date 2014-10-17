@@ -20,7 +20,7 @@ GameManager.prototype.restart = function () {
   this.setup();
 };
 
-// Keep playing after winning (allows going over 128)
+// Keep playing after winning (allows going over ^_^)
 GameManager.prototype.keepPlaying = function () {
   this.keepPlaying = true;
   this.actuator.continueGame(); // Clear the game won/lost message
@@ -170,8 +170,8 @@ GameManager.prototype.move = function (direction) {
           // Update the score
           self.score += merged.value;
 
-          // The mighty 128 tile
-          if (merged.value === 128) self.won = true;
+          // The mighty ^_^ tile
+          if (merged.value === 256) self.won = true;
         } else {
           self.moveTile(tile, positions.farthest);
         }

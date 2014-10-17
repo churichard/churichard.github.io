@@ -2,33 +2,36 @@ function Tile(position, value) {
   this.x                = position.x;
   this.y                = position.y;
   if (value == 2){
-	this.icon = ":)";
-  }
-  if (value == 4){
-	this.icon = ":D";
-  }
-  if (value == 8){
+    this.icon = ":)";
+}
+if (value == 4){
+  this.icon = ";)";
+}
+if (value == 8){
+  this.icon = ":D";
+}
+if (value == 16){
 	this.icon = ":3";
-  }
-  if (value == 16){
+}
+if (value == 32){
 	this.icon = ":O";
-  }
-  if (value == 32){
+}
+if (value == 64){
 	this.icon = ":P";
-  }
-  if (value == 64){
+}
+if (value == 128){
 	this.icon = "8D";
-  }
-  if (value == 128){
+}
+if (value == 256){
 	this.icon = "^_^";
-  }
-  if (value > 128){
-	  this.icon = value;
-  }
+}
+if (value > 256){
+ this.icon = value;
+}
 
-  this.value            = value;
+this.value            = value;
 
-  this.previousPosition = null;
+this.previousPosition = null;
   this.mergedFrom       = null; // Tracks tiles that merged together
 }
 
