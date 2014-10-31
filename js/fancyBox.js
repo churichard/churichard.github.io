@@ -29,4 +29,19 @@ $(document).ready(function() {
 			}
 		}
 	});
+	$(".fancybox-thumb-land").fancybox({
+		openEffect	: 'elastic',
+		closeEffect	: 'elastic',
+
+		helpers : {
+			title : {
+				type : 'inside'
+			},
+
+			thumbs : {
+				width  : 128,
+				height : 72
+			}
+		}
+	});
 });
