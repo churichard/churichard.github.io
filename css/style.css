@@ -22,7 +22,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #2980b9;
+    color: #777777;
 }
 
 h1,
@@ -31,7 +31,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'proximanovalight';
     font-weight: 100;
 }
 
@@ -39,11 +39,22 @@ h6 {
     margin: 0 auto;
 }
 
+@font-face {
+    font-family: 'proximanovalight';
+    src: url('../fonts/proximanovalight.eot');
+    src: local('proximanovalight'), url('../fonts/proximanovalight.woff') format('woff'), url('../fonts/proximanovalight.ttf') format('truetype');
+}
+
+.proximanovalight {
+    font-family: 'proximanovalight' !important;
+}
+
 header {
     text-align: center;
-    color: #ffffff;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../img/bg/header_bg.jpg");
+    color: #000000;
+    background-image: url("../img/bg/cuadros.png");
+    background-attachment: fixed;
+    background-size: 20%;
 }
 
 header .container {
@@ -58,25 +69,26 @@ header img {
 
 header .intro-text .name {
     display: block;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'proximanovalight';
     font-size: 4em;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 header .intro-text .skills {
     font-size: 1.25em;
-    font-weight: 100;
+    font-weight: 500;
+    font-family: 'proximanovalight';
 }
 
 @media(min-width:768px) {
     header .container {
-        padding-top: 300px;
-        padding-bottom: 250px;
+        padding-top: 225px;
+        padding-bottom: 225px;
     }
 
     header .intro-text .name {
         font-size: 4.75em;
-        padding-bottom: 25px;
+        padding-bottom: 15px;
     }
 
     header .intro-text .skills {
@@ -85,10 +97,10 @@ header .intro-text .skills {
 }
 
 .navbar {
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'proximanovalight';
     font-weight: 400;
-    font-size: 1.25em;
-    background-color: rgb(45, 64, 140);
+    font-size: 1.35em;
+    background-color: rgba(0, 0, 0, 0.15);
 }
 
 .navbar a:focus {
@@ -108,6 +120,34 @@ header .intro-text .skills {
     border: 0;
 }
 
+.navbar-default .navbar-brand {
+  color: #000000;
+  font-size: 1.25em;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #777777;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #000000;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #777777;
+}
+
+.navbar-static-top,
+.navbar-static-bottom {
+    margin-bottom: 0px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+}
+
 section {
     padding: 100px 0;
 }
@@ -118,9 +158,16 @@ section h2 {
 }
 
 section.success {
-    color: #fff;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../img/bg/about_bg.jpg");
+    color: #000;
+    font-family: 'proximanovalight';
+    background-image: url("../img/bg/congruent_pentagon.png");
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+section.contact {
+    color: #000;
+    font-family: 'proximanovalight';
 }
 
 @media(max-width:767px) {
@@ -136,6 +183,7 @@ section.success {
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
+    font-family: 'proximanovalight';
 }
 
 #portfolio .portfolio-item .portfolio-link {
@@ -150,7 +198,7 @@ section.success {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(45, 64, 150, .7);
+    background: rgba(0, 0, 0, .3);
     -webkit-transition: all ease .1s;
     -moz-transition: all ease .1s;
     transition: all ease .1s;
@@ -194,7 +242,7 @@ section.success {
     margin-top: 15px;
     margin-left: 5px;
     margin-right: 5px;
-    border: solid 2px #000;
+    border: solid 1px #000;
     font-size: 20px;
     color: #000;
     background: 0 0;
@@ -205,9 +253,8 @@ section.success {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-    border: solid 2px #000;
     color: #fff;
-    background: rgb(45, 64, 140);
+    background: rgba(0, 0, 0, .1);
 }
 
 .floating-label-form-group {
@@ -267,7 +314,7 @@ form .row:first-child .floating-label-form-group {
 }
 
 footer {
-    color: #fff;
+    color: #000;
 }
 
 footer h3 {
@@ -279,8 +326,9 @@ footer .footer-col {
 }
 
 footer .footer-below {
+    font-family: 'proximanovalight';
     padding: 25px 0;
-    background-color: rgb(45, 64, 140);
+    background-color: #ffffff;
 }
 
 .btn-social {
@@ -322,6 +370,7 @@ footer .footer-below {
 }
 
 .portfolio-modal .modal-content {
+    font-family: 'proximanovalight';
     padding: 100px 0;
     min-height: 100%;
     border: 0;
@@ -364,7 +413,7 @@ footer .footer-below {
     width: 3px;
     height: 75px;
     margin-left: 35px;
-    background-color: #2c3e50;
+    background-color: #000000;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -374,7 +423,7 @@ footer .footer-below {
     z-index: 1052;
     width: 3px;
     height: 75px;
-    background-color: #2c3e50;
+    background-color: #000000;
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
