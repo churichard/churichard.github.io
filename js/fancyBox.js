@@ -24,8 +24,8 @@ $(document).ready(function() {
 			},
 
 			thumbs : {
-				width  : 72,
-				height : 128
+				width  : 36,
+				height : 64
 			}
 		}
 	});
