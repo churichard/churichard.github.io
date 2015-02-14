@@ -1,5 +1,5 @@
 /*!
- * Start Bootstrap - Freelancer Bootstrap Theme (http://startbootstrap.com)
+ * Start Bootstrap - Freelancer Bootstrap Theme + Grayscale Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
@@ -16,6 +16,7 @@ body {
 
 p {
     font-size: 20px;
+    font-weight: lighter;
 }
 
 p.small {
@@ -37,30 +38,22 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'proximanovalight';
-    font-weight: 100;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
 }
 
 .img-centered {
     margin: 0 auto;
 }
 
-@font-face {
-    font-family: 'proximanovalight';
-    src: url('../fonts/proximanovalight.eot');
-    src: local('proximanovalight'), url('../fonts/proximanovalight.woff') format('woff'), url('../fonts/proximanovalight.ttf') format('truetype');
-}
-
-.proximanovalight {
-    font-family: 'proximanovalight';
-}
-
 header {
     text-align: center;
-    color: #000000;
-    background-image: url("../img/bg/gears.png");
+    color: #ffffff;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/bg/princeton.jpg");
     background-attachment: fixed;
-    background-size: 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
 header .container {
@@ -75,15 +68,15 @@ header img {
 
 header .intro-text .name {
     display: block;
-    font-family: 'proximanovalight';
+    font-family: 'Open Sans', sans-serif;
     font-size: 4em;
-    font-weight: 500;
+    font-weight: normal;
 }
 
 header .intro-text .skills {
     font-size: 1.25em;
-    font-weight: 500;
-    font-family: 'proximanovalight';
+    font-weight: lighter;
+    font-family: 'Open Sans', sans-serif;
 }
 
 @media(min-width:768px) {
@@ -103,9 +96,6 @@ header .intro-text .skills {
 }
 
 @media (max-width: 767px) {
-    header {
-        background-size: 30%;
-    }
     header .container {
         padding-top: 100px;
         padding-bottom: 100px;
@@ -113,8 +103,8 @@ header .intro-text .skills {
 }
 
 .navbar {
-    font-family: 'proximanovalight';
-    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
     font-size: 1.35em;
     background-color: rgba(0, 0, 0, 0.3);
 }
@@ -175,7 +165,7 @@ section h2 {
 
 section.success {
     color: #000;
-    font-family: 'proximanovalight';
+    font-family: 'Open Sans', sans-serif;
     background-image: url("../img/bg/congruent_pentagon.png");
     background-attachment: fixed;
     background-size: 100%;
@@ -183,7 +173,7 @@ section.success {
 
 section.contact {
     color: #000;
-    font-family: 'proximanovalight';
+    font-family: 'Open Sans', sans-serif;
 }
 
 @media(max-width:767px) {
@@ -199,7 +189,7 @@ section.contact {
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
-    font-family: 'proximanovalight';
+    font-family: 'Open Sans', sans-serif;
 }
 
 #portfolio .portfolio-item .portfolio-link {
@@ -254,15 +244,67 @@ section.contact {
     }
 }
 
-.btn-outline {
+.btn {
     margin-top: 15px;
     margin-left: 5px;
     margin-right: 5px;
-    border: solid 1px #000;
     font-size: 20px;
+    font-weight: 300;
     color: #000;
-    background: 0 0;
+    background: #eeeeee;
     transition: all .1s ease-in-out;
+}
+
+.btn-circle {
+    width: 70px;
+    height: 70px;
+    margin-top: 15px;
+    padding: 7px 16px;
+    border: 2px solid #fff;
+    border-radius: 35px;
+    font-size: 40px;
+    color: #fff;
+    background: 0 0;
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.btn-circle:hover,
+.btn-circle:focus {
+    outline: 0;
+    color: #fff;
+    background: rgba(255,255,255,.1);
+}
+
+.btn-circle i.animated {
+    -webkit-transition-property: -webkit-transform;
+    -webkit-transition-duration: 1s;
+    -moz-transition-property: -moz-transform;
+    -moz-transition-duration: 1s;
+}
+
+.btn-circle:hover i.animated {
+    -webkit-animation-name: pulse;
+    -moz-animation-name: pulse;
+    -webkit-animation-duration: 1.5s;
+    -moz-animation-duration: 1.5s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+}
+
+.btn-small {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 2px 2px 2px 2px;
+}
+
+.btn-outline {
+    border: solid 1px #000;
+    background: 0 0;
 }
 
 .btn-outline:hover,
@@ -271,6 +313,11 @@ section.contact {
 .btn-outline.active {
     color: #000;
     background: rgba(0, 0, 0, .1);
+}
+
+.btn:hover {
+    background: #999999;
+    color: #ffffff;
 }
 
 .floating-label-form-group {
@@ -342,7 +389,7 @@ footer .footer-col {
 }
 
 footer .footer-below {
-    font-family: 'proximanovalight';
+    font-family: 'Open Sans', sans-serif;
     padding: 25px 0;
     background-color: #ffffff;
 }
@@ -386,7 +433,7 @@ footer .footer-below {
 }
 
 .portfolio-modal .modal-content {
-    font-family: 'proximanovalight';
+    font-family: 'Open Sans', sans-serif;
     padding: 100px 0;
     min-height: 100%;
     border: 0;
