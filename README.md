@@ -1,3 +1,3 @@
-Richard Chu
+http://churichard.me
 ============
-A personal website that showcases projects that I've worked on.
+http://churichard.me is a personal website that showcases projects that I've worked on.
