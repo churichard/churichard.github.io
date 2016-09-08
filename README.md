@@ -1,3 +1,1 @@
-http://churichard.com
-============
-http://churichard.com is a personal website that showcases projects that I've worked on.
+http://churichard.com is my personal website that describes my experience and skills.
