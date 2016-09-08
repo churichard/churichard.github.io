@@ -1,3 +1,3 @@
-http://churichard.me
+http://churichard.com
 ============
-http://churichard.me is a personal website that showcases projects that I've worked on.
+http://churichard.com is a personal website that showcases projects that I've worked on.
