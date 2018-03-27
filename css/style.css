@@ -27,6 +27,7 @@ body {
   margin-top: 60px;
   margin-left: 5%;
   margin-right: 5%;
+  margin-bottom: 5%;
 }
 
 .site-navigation {
@@ -77,6 +78,10 @@ body {
 .portfolio-img {
   width: 64px;
   height: auto;
+}
+
+.portfolio-header {
+  margin-bottom: 10px;
 }
 
 /* Link style */
