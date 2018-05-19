@@ -1,1 +1,0 @@
-http://churichard.com is my personal website that describes my experience and skills.
