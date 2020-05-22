@@ -8,44 +8,42 @@ body {
   max-width: 800px;
 }
 
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4rem;
+}
+
 .nav-item {
-  margin: 0 40px 0 0;
   padding: 3px;
 }
 
 .page-title {
-  margin-top: 5%;
   margin-bottom: 0;
-  display: inline-block;
+  font-size: 36px;
 }
 
 .page-container {
-  margin-top: 60px;
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-bottom: 5%;
+  margin: 6rem 4rem;
 }
 
 .site-navigation {
-  margin-top: 6%;
-  margin-left: 50px;
-  display: inline-block;
-  float: right;
+  margin-left: 10px;
 }
 
 @media only screen and (max-width: 640px) {
-    .page-title {
-      margin-top: 5%;
-      margin-bottom: 0;
-      display: block;
-    }
+  .header {
+    flex-direction: column;
+  }
 
-    .site-navigation {
-      margin-top: 6%;
-      margin-left: 0px;
-      display: block;
-      float: left;
-    }
+  .page-title {
+    margin-bottom: 2rem;
+  }
+
+  .page-container {
+    margin: 6rem 2rem;
+  }
 }
 
 /* Portfolio items */
