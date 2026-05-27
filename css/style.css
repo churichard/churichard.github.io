@@ -24,6 +24,13 @@ body {
   font-size: 36px;
 }
 
+.page-title-link,
+.page-title-link:hover {
+  color: #000000;
+  border-bottom: 0;
+  background-color: transparent;
+}
+
 .page-container {
   margin: 2.5rem 4rem;
 }
