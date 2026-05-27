@@ -27,6 +27,7 @@ body {
 .page-title-link {
   color: #000000;
   border-bottom: 0;
+  margin-left: -3px;
   padding: 3px;
 }
 
