@@ -57,11 +57,27 @@ body {
 
 /* Portfolio items */
 
+@media (min-width: 550px) {
+  .page-container > .row {
+    display: flex;
+    align-items: stretch;
+  }
+
+  .page-container > .row > .columns {
+    display: flex;
+  }
+
+  .page-container > .row:after {
+    display: none;
+  }
+}
+
 .portfolio-item {
   display: block;
   text-align: center;
   white-space: normal;
   color: #000000;
+  width: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
   border-bottom: 0;
