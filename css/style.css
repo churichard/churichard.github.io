@@ -24,11 +24,16 @@ body {
   font-size: 36px;
 }
 
-.page-title-link,
+.page-title-link {
+  color: #000000;
+  border-bottom: 0;
+  padding: 3px;
+}
+
 .page-title-link:hover {
   color: #000000;
   border-bottom: 0;
-  background-color: transparent;
+  background-color: rgba(52,73,94,0.1);
 }
 
 .page-container {
