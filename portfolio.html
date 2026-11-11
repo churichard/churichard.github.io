@@ -5,12 +5,12 @@
     <title>Richard Chu - Portfolio</title>
     <meta
       name="description"
-      content="Richard Chu is a founder and product engineer building LaunchCut, Fluxmail, ExploreJobs.ai, Notabase, and Screenshot Creator."
+      content="Richard Chu is a founder and product engineer building Fluxmail, LaunchCut, ExploreJobs.ai, Notabase, and Screenshot Creator."
     />
     <meta name="author" content="Richard Chu" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,600"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/normalize.css" />
@@ -31,129 +31,103 @@
         </div>
       </div>
       <div class="page-container">
-        <div class="row">
-          <div class="six columns">
-            <a
-              class="portfolio-item"
-              href="https://fluxmail.ai?ref=churichard.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h4 class="portfolio-header">Fluxmail</h4>
-              <img src="./img/portfolio/fluxmail.png" class="portfolio-img" />
-              <p class="portfolio-item-text">
-                Self-hosted email infrastructure for agents and apps, with MCP, REST API, and CLI access
-              </p>
-            </a>
-          </div>
-          <div class="six columns">
-            <a
-              class="portfolio-item"
-              href="https://launchcut.io?ref=churichard.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h4 class="portfolio-header">LaunchCut</h4>
-              <img src="./img/portfolio/launchcut.svg" class="portfolio-img" />
-              <p class="portfolio-item-text">
-                Generate a high quality product video from your landing page in 5 minutes
-              </p>
-            </a>
-          </div>
-        </div>
-        <div class="row">
-          <div class="six columns">
-            <a
-              class="portfolio-item"
-              href="https://explorejobs.ai?ref=churichard.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h4 class="portfolio-header">ExploreJobs.ai</h4>
-              <img src="./img/portfolio/explorejobsai.png" class="portfolio-img" />
-              <p class="portfolio-item-text">
-                A job board for AI companies
-              </p>
-            </a>
-          </div>
-          <div class="six columns">
-            <a
-              class="portfolio-item"
-              href="https://notabase.io?ref=churichard.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h4 class="portfolio-header">Notabase</h4>
-              <img src="./img/portfolio/notabase.svg" class="portfolio-img" />
-              <p class="portfolio-item-text">
-                A personal knowledge base for networked thinking
-              </p>
-            </a>
-          </div>
-        </div>
-        <div class="row">
-          <div class="six columns">
-            <a
-              class="portfolio-item"
-              href="https://screenshotcreator.com?ref=churichard.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h4 class="portfolio-header">Screenshot Creator</h4>
-              <img
-                src="./img/portfolio/screenshot-creator.svg"
-                class="portfolio-img"
-              />
-              <p class="portfolio-item-text">
-                Beautiful screenshot generator for mobile app developers
-              </p>
-            </a>
-          </div>
-          <div class="six columns">
-            <a
-              class="portfolio-item"
-              href="https://makerlist.substack.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h4 class="portfolio-header">MakerList</h4>
-              <img src="./img/portfolio/makerlist.svg" class="portfolio-img" />
-              <p class="portfolio-item-text">
-                Newsletter that helps startup founders build profitable
-                businesses
-              </p>
-            </a>
-          </div>
-        </div>
-        <div class="row">
-          <div class="six columns">
-            <a
-              class="portfolio-item"
-              href="https://github.com/TigerPathApp/tigerpath"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h4 class="portfolio-header">TigerPath</h4>
-              <img src="./img/portfolio/tigerpath.png" class="portfolio-img" />
-              <p class="portfolio-item-text">
-                Four-year course planner for Princeton University students
-              </p>
-            </a>
-          </div>
-          <div class="six columns">
-            <a
-              class="portfolio-item"
-              href="https://github.com/churichard/ru-direct"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h4 class="portfolio-header">RU Direct</h4>
-              <img src="./img/portfolio/rudirect.png" class="portfolio-img" />
-              <p class="portfolio-item-text">
-                Android app for bus navigation at Rutgers University
-              </p>
-            </a>
-          </div>
+        <div class="portfolio-grid">
+          <a
+            class="portfolio-card"
+            href="https://fluxmail.ai?ref=churichard.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="./img/portfolio/fluxmail.png" class="portfolio-icon" alt="" />
+            <div class="portfolio-body">
+              <h2 class="portfolio-name">Fluxmail</h2>
+              <p class="portfolio-desc">Email access for AI agents, connecting Gmail, Outlook, and IMAP mailboxes</p>
+            </div>
+          </a>
+          <a
+            class="portfolio-card"
+            href="https://notabase.io?ref=churichard.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="./img/portfolio/notabase.svg" class="portfolio-icon" alt="" />
+            <div class="portfolio-body">
+              <h2 class="portfolio-name">Notabase</h2>
+              <p class="portfolio-desc">A personal knowledge base for networked thinking</p>
+            </div>
+          </a>
+          <a
+            class="portfolio-card"
+            href="https://explorejobs.ai?ref=churichard.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="./img/portfolio/explorejobsai.png" class="portfolio-icon" alt="" />
+            <div class="portfolio-body">
+              <h2 class="portfolio-name">ExploreJobs.ai</h2>
+              <p class="portfolio-desc">A job board for AI companies</p>
+            </div>
+          </a>
+          <a
+            class="portfolio-card"
+            href="https://launchcut.io?ref=churichard.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="./img/portfolio/launchcut.svg" class="portfolio-icon" alt="" />
+            <div class="portfolio-body">
+              <h2 class="portfolio-name">LaunchCut</h2>
+              <p class="portfolio-desc">Generate a high quality product video from your landing page in 5 minutes</p>
+            </div>
+          </a>
+          <a
+            class="portfolio-card"
+            href="https://screenshotcreator.com?ref=churichard.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="./img/portfolio/screenshot-creator.svg" class="portfolio-icon" alt="" />
+            <div class="portfolio-body">
+              <h2 class="portfolio-name">Screenshot Creator</h2>
+              <p class="portfolio-desc">Beautiful screenshot generator for mobile app developers</p>
+            </div>
+          </a>
+          <a
+            class="portfolio-card"
+            href="https://makerlist.substack.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="./img/portfolio/makerlist.svg" class="portfolio-icon" alt="" />
+            <div class="portfolio-body">
+              <h2 class="portfolio-name">MakerList</h2>
+              <p class="portfolio-desc">Newsletter that helps startup founders build profitable businesses</p>
+            </div>
+          </a>
+          <a
+            class="portfolio-card"
+            href="https://github.com/TigerAppsOrg/TigerPath"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="./img/portfolio/tigerpath.png" class="portfolio-icon" alt="" />
+            <div class="portfolio-body">
+              <h2 class="portfolio-name">TigerPath</h2>
+              <p class="portfolio-desc">Four-year course planner for Princeton University students</p>
+            </div>
+          </a>
+          <a
+            class="portfolio-card"
+            href="https://github.com/churichard/ru-direct"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="./img/portfolio/rudirect.png" class="portfolio-icon" alt="" />
+            <div class="portfolio-body">
+              <h2 class="portfolio-name">RU Direct</h2>
+              <p class="portfolio-desc">Android app for bus navigation at Rutgers University</p>
+            </div>
+          </a>
         </div>
       </div>
     </div>
